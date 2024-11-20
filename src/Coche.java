@@ -25,6 +25,10 @@ public class Coche {
     public void setAnio(int anio) {
         this.anio = anio;
     }
+    public void encender() {
+        System.out.println("El coche está encendido.");
+    }
+
     @Override
     public String toString() {
         return "Coche{" +
